@@ -1,0 +1,19 @@
+/* Основные стили как в предыдущих версиях */
+body { margin: 0; font-family: Arial, sans-serif; }
+.header { background: #2E7D32; color: white; padding: 1rem; }
+#map { width: 100vw; height: calc(100vh - 60px); }
+
+/* Стили для статуса синхронизации */
+.sync-status {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    cursor: help;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .header__container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
